@@ -1,0 +1,181 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Tamaño del logo */
+.logo{
+    width:5%;
+}
+/* Centrar portada */
+.portada{
+
+    justify-content: center;
+}
+/* Tamaño productos novedosos */
+.productos-novedosos img{
+    width: 20%;
+    height: 20%;
+    padding: 35px;
+}
+/* Sección de imagen superpuesta en index.html */
+.seccion-sobre-nosotros{
+    background-image: url(assets/portada.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 35px;
+
+}
+/* Centrar portada */
+.portada-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Hacer filas con elementos */
+.fila-container{
+    display: flex;
+    justify-content: center;
+}
+/* Hacer que se distancien los elementos unos a otros */
+.fila{
+    display: flex;
+    justify-content: space-around;
+}
+/* Ajustar tamaño imagen */
+.fila img{
+    width: 80%;
+}
+
+/* Centrar contenido */
+.seccion-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Hacer que se distancien los elementos unos a otros */
+.seccion{
+    display: flex;
+      justify-content: space-around;
+    }
+
+    /* Tamaño imagen */
+    .seccion img {
+        width: 65%;
+    }
+
+    /* propiedades header */
+    header{
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+        background-color: coral;
+        align-items: center;
+        padding: 10px;
+
+    }
+    /* Quitar puntos a las listas */
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    /* Ubicación de el nav   */
+    nav a{
+        font-weight: 600;
+        padding-right: 70px;
+    }
+
+    /* Centrar texto novedades */
+   .novedades{
+    display: flex;
+    padding: 0 35px;
+   }
+    /* Ajustar tamaño foto novedades */
+   .foto-novedades{
+    width: 10%
+   }
+
+    /* Propiedades de footer */
+   footer{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+      align-items: center;
+    padding: 10px;
+   }
+
+   /* Propiedades del footer */
+   footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+  }
+
+  /* Caja del footer */
+  footer .container {
+    max-width: 1200px;
+    margin: 0 50%;
+    padding: 20px;
+  }
+  /* Estilo de las listas del footer */
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+    /* Margen de elemtnos inddividuales del footer */
+    footer li {
+        margin-right: 10px;
+      }
+      /* Enlaces de los footer */
+      footer a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      /* Centrar servicios */
+      .servicios
+{
+    text-align: center;
+}
+/* Centrar sobre nosotros */
+.nosotros{
+    text-align: center;
+}
+/*  Achicar foto sobre nosotros */
+#foto-nosotros{
+    display: flex;
+    width: 40%;
+}
+/*  achichar fot */
+#foto{
+    display: flex;
+    width:40%;
+}
+/*  color del sobre nosotros del index */
+#texto-index{
+    color: white;
+}
+/* Centrado de elementos */
+.centrado{
+    text-align: center;
+}
+    /* Quitar puntos a las listas */
+ul {
+    list-style: none;
+  }
+
+.altura-imagenes{
+    height: 50%;
+    width: 70%;
+ 
+  
+  }

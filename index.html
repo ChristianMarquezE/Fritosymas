@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fritos y más</title>
+</head>
+<body>
+    <!-- Voy formando mi estructura HTML sección por sección o reglon a reglon (o filas) -->
+    <!-- Header primera fila del documento -->
+    <header>
+        <!-- Logo con texto -->
+        <section>
+        <!-- Logo -->
+         <img class= "logo" src="assets/logo-fritos-y-mas.jpg" alt="logo">
+
+         <!-- Texto logo -->
+         <p>Fritos y más</p>
+
+        </section>
+
+         <!-- Buscador -->
+            <div class="fondo">
+            <input type="text" placeholder="Buscar">
+
+            </div>
+
+          <!-- Navegación -->
+            <nav class="fila-container">
+              <div class="header">
+                <a href="index.html">Inicio</a>
+                <a href="pages/productos.html">Productos</a>
+                <a href="pages/servicios.html">Servicios</a>
+                <a href="pages/acerca-de.html">Acerca de</a>
+                </div>
+
+            </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+    <!-- Portada -->
+        <section class="portada-container">
+
+            <div class="portada">
+            <img src="assets/portada.png" alt="portada">
+         </div>
+         </section>
+
+   <!-- Sección de productos novedosos -->
+        <section>
+         <!-- Título -->
+        <div>
+        <h1>Nuestros productos</h1>
+        </div>
+
+        <!--  Imágenes de productos novedosos -->
+        <section class="fila-container">
+            <div class="fila">
+                <a href="pages/producto1.html">
+                    <img src="assets/arrollados.jpeg" alt="arrollados-primavera">
+                </a>
+                <a href="pages/producto1.html">
+                    <img src="assets/empanada-queso.jpeg" alt="empanaditas-de-queso">
+                 </a>
+            </div>
+        </section>
+
+       <!-- Nombres del productos novedosos -->
+        <section class="fila-container">
+            <div class="fila">
+               <!-- Producto 1 -->
+               <div class="novedades">
+                   <p>Arrollados primavera x 3</p>
+               </div>
+
+               <!-- Producto 2-->
+               <div class="novedades">
+                   <p>Empanaditas de queso x 3</p>
+               </div>
+            </div>
+       </section>
+       <!-- Precios de productos novedosos -->
+        <section class="fila-container">
+             <div class="fila">
+                <!-- Precio 1 -->
+                <div class="novedades">
+                    <p>$1.000</p>
+                </div>
+
+                <!-- Precio 2 -->
+                <div class="novedades">
+                    <p>$1.000</p>
+                </div>
+             </div>
+        </section>
+        </section>
+
+     <!-- Sección sobre nosotros -->
+        <section class="seccion-sobre-nosotros">
+
+            <a href="pages/acerca-de.html"><h2 id="texto-index">Sobre nosotros</h2>
+            </a>
+            <p>Venta de productos seleccionados de alta demanda, nuevos y con precios accesibles para todos.</p>
+
+        </section>
+
+     <!-- Sección de opiniones de los clientes -->
+        <section>
+            <!-- Título -->
+            <h3>Opiniones de nuestros clientes:</h3>
+
+            <!-- Estrellas -->
+            <div class="fila estrellas">
+                <img src="assets/rating.png" alt="5-estrellas">
+                <img src="assets/rating.png" alt="5-estrellas">
+                <img src="assets/rating.png" alt="5-estrellas">
+            </div>
+
+            <!-- Nombre opinión -->
+            <div class="fila">
+            <p>Juanita Perez</p>
+            <p>Juanito Fernandez</p>
+            <p>Fernando Caceres</p>
+            </div>
+ 
+            <!-- Opninión -->
+            <div class="fila">
+                <p>Opinión 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat distinctio deserunt quam eius quia assumenda reiciendis aliquid amet temporibus eveniet! Eligendi molestiae sequi consectetur voluptatibus rerum, alias quae facere doloribus?</p>
+
+                <p>Opinión 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aperiam, ipsam tenetur iste modi nesciunt a reprehenderit? Asperiores accusamus porro impedit architecto, cum explicabo. Reiciendis nostrum labore recusandae nihil voluptate?</p>
+
+                <p>Opinión 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iure labore natus facere quasi porro voluptatum quo modi quae? Voluptates accusantium necessitatibus maiores vero saepe amet esse, officiis dicta nam?</p>
+
+            </div>
+        
+
+        </section>
+
+     <!-- Envianos un mensaje -->
+    <section> 
+
+        <!-- Título -->
+        <section class="fila">
+            <h2>¿Dudas, consultas o sugerencias?</h3>
+        </section>
+
+        <!-- Subtítulo y casillas para poner datos y mensaje -->
+        <section class="fila">
+            <p>Escríbenos, nos interesa saber tu opinión.</p>
+            <form action="url" method="get o post">
+            <ul>
+                <li><label for="name">Nombre</label></li>
+                <input type="text" id="name" name="user_name">
+                <li><label for="mail">Correo</label></li>
+                <input type="email" id="mail" name="user_mail">
+                <li><label for="msg">Mensaje</label></li>
+                <li><textarea name="user_message" id="msg"></textarea></li>
+                <li class="button">
+                <button type="submit">Enviar</button></li>
+            </ul>
+            </form>
+        </section>
+
+    </section>
+
+    </main>
+     
+    <!-- Footer -->
+    <footer>
+
+        <!--  Logo, título y dirección -->
+        <img class="logo"  src="assets/logo-fritos-y-mas.jpg" alt="logo">
+        <h6>Fritos y más</h6>
+        <p>La Marina 1025, Chiguayante</p>
+        
+        <!-- Menú navegable -->
+        <div class="container">
+            
+            <ul>
+                <h5>Menú principal</h5>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pages/productos.html">Productos</a></li>
+                <li><a href="pages/servicios.html"><h5>Servicios</h5></a></li>
+                <li><a href="pages/acerca-de.html"><h5>Acerca de</h5></a></li>
+                <h5>Encuentranos en:</h5>
+                <li><a href="https://www.instagram.com/fritoscaserosymas/"target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/FritosCaserosyMas"target="_blank">Facebook</a></li>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3189.298125926188!2d-73.03104772415571!3d-36.93104257221003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b93de196aa5b%3A0xfc335cf2b247a107!2sDQ%20Market!5e0!3m2!1ses!2scl!4v1721186229549!5m2!1ses!2scl" width="100px" height="100px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </ul>
+
+        </div>
+          
+    </footer>
+
+          
+</body>
+    
+</html>
