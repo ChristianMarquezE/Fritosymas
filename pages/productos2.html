@@ -3,116 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles.css">
     <title>Fritos y más: Productos</title>
 </head>
 <body>
     <!-- Header -->
     <header>
-        <!-- Logo con texto -->
-        <section>
-        <!-- Logo -->
-         <img class= "logo" src="../assets/logo-fritos-y-mas.jpg" alt="logo">
-
-         <!-- Texto logo -->
-         <p>Fritos y más</p>
-
-        </section>
-         <!-- Buscador -->
-          <div class="fondo">
-            <input type="text" placeholder="Buscar">
-
-          </div>
-
-          <!-- Navegación -->
-         <nav class="fila-container">
-            <div class="header">
-                <a href="../index.html">Inicio</a>
-                <a href="productos.html">Productos</a>
-                <a href="servicios.html">Servicios</a>
-                <a href="acerca-de.html">Acerca de</a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Fritos y más</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
             </div>
-    
-            
-
-            
-
-         </nav>
+          </nav>
     </header>
+
 
     <!-- Menú principal -->
     <main>
 
      <!-- Filtros de comidas -->
-     <section class="seccion-container">
-        <div class="seccion">
-            <a href="">
+     <section class="container-fluid">
+        <div class="row">
+            <a class="col-lg-4 centrado" href="">
             <h1>Colaciones</h1>
-            <img src="../assets/colacion-con-pollo.jpg" alt="colacion-con-pollo">
+            <img class="altura-imagenes" src="../assets/colacion-con-pollo.jpg" alt="colacion-con-pollo">
             </a>
 
-            <a href="">
+            <a class="col-lg-4 centrado" href="">
             <h1>Bebestibles</h1>
-            <img src="../assets/cafe2.jpg" alt="cafe">
+            <img class="altura-imagenes" src="../assets/cafe2.jpg" alt="cafe">
             </a>
 
-            <a href="">
+            <a class="col-lg-4 centrado" href="">
             <h1>Comidas</h1>
-            <img src="../assets/papa-frita.jpeg" alt="papas-fritas">
+            <img class="altura-imagenes" src="../assets/papa-frita.jpeg" alt="papas-fritas">
          </a>
         </div>
      </section>
      <!-- Productos -->
     <h2>Lista de productos</h2>
 
-    <section class="fila-container">
-        <div class="fila">
-            <a href="producto1.html">
-             <img src="../assets/te.webp" alt="te">
-             <p>TE</p>
+    <section class="container-fluid">
+        <div class="row">
+            <a class="col-full col-lg-2 centrado" href="producto1.html">
+             <img class="altura-imagenes" src="../assets/te.webp" alt="te">
+             <h4>TE</h4>
              <p>$1.300</p>
             </a>
-            <a href="producto1.html">
-              <img src="../assets/tequeños-queso.jpeg" alt="tequeños">
-              <p>TEQUEÑOS X 3</p>
+            <a class="col-full col-lg-2 centrado" href="producto1.html">
+              <img class="altura-imagenes" src="../assets/tequeños-queso.jpeg" alt="tequeños">
+              <h4>TEQUEÑOS X 3</h4>
              <p>$3.000</p>
               </a>
 
-              <a href="producto1.html">
-              <img src="../assets/cafe2.jpg" alt="americano">
-             <p>AMERICANO M</p>
+              <a class="col-full col-lg-2 centrado" href="producto1.html">
+              <img class="altura-imagenes" src="../assets/cafe2.jpg" alt="americano">
+             <h4>AMERICANO M</h4>
              <p>$3.000</p>
             </a>
 
-            <a href="producto1.html">
-                <img src="../assets/cafe2.jpg" alt="americano">
-             <p>AMERICANO S</p>
+            <a class="col-full col-lg-2 centrado" href="producto1.html">
+                <img class="altura-imagenes" src="../assets/cafe2.jpg" alt="americano">
+             <h4>AMERICANO S</h4>
              <p>$2.000</p>
 
             </a>
-            <a href="producto1.html">
-            <img src="../assets/express.webp" alt="express">
-            <p>BEBIDA EXPRESS</p>
+            <a class="col-full col-lg-2 centrado" href="producto1.html">
+            <img class="altura-imagenes" src="../assets/express.webp" alt="express">
+            <h4>BEBIDA EXPRESS</h4>
             <p>$500</p>
         </a>
+
+        <a class="col-full col-lg-2 centrado" href="producto1.html">
+            <img class="altura-imagenes" src="../assets/cafe.jpg" alt="cafe">
+           <h4>CAFE M</h4>
+           <p>$1.300</p>
+         </a>
+
+         <a class="col-full col-lg-2 centrado" href="producto1.html">
+         <img class="altura-imagenes" src="../assets/cafe.jpg" alt="cafe">
+         <h4>CAFE S</h4>
+          <p>$1.000</p>
+         </a> 
         </div>
     </section>
 
-    <section class="fila-container">
-            <div class="fila">
-                <a href="producto1.html">
-               <img src="../assets/cafe.jpg" alt="cafe">
-              <p>CAFE M</p>
-              <p>$1.300</p>
-            </a>
-
-            <a href="producto1.html">
-            <img src="../assets/cafe.jpg" alt="cafe">
-            <p>CAFE S</p>
-             <p>$1.000</p>
-            </a>
-        </div>
-    </section>
 
     <!-- Número de páginas -->
     <section class="centrado">
@@ -153,6 +159,7 @@
           </div>
           
     </footer>
-</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
 </body>
 </html>

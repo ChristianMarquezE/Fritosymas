@@ -4,58 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2cb61d475c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../styles.css">
     <title>Fritos y más: Productos</title>
 </head>
 <body>
     <!-- Header -->
     <header>
-        <!-- Logo con texto-->
-        <section>
-        <!-- Logo -->
-            <img class= "logo" src="../assets/logo-fritos-y-mas.jpg" alt="logo">
-
-         <!-- Texto logo -->
-            <p>Fritos y más</p>
-
-        </section>
-
-         <!-- Buscador -->
-          <div class="fondo">
-            <input type="text" placeholder="Buscar">
-
-          </div>
-
-          <!-- Navegación -->
-         <nav class="fila-container">
-            <div class="header">
-                <a href="../index.html">Inicio</a>
-                <a href="productos.html">Productos</a>
-                <a href="servicios.html">Servicios</a>
-                <a href="acerca-de.html">Acerca de</a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Fritos y más</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
             </div>
-    
-         </nav>
+          </nav>
     </header>
 
     <!-- Contenido principal -->
     <main>
      <!-- Filtros de comidas -->
-     <section class="seccion-container">
-        <div class="seccion">
-            <a href="">
+     <section class="container-fluid">
+        <div class="row">
+            <a class="col-lg-4 centrado" href="">
             <h1>Colaciones</h1>
-            <img src="../assets/colacion-con-pollo.jpg" alt="colacion-con-pollo">
+            <img class="altura-imagenes" src="../assets/colacion-con-pollo.jpg" alt="colacion-con-pollo">
             </a>
 
-            <a href="">
+            <a class="col-lg-4 centrado" href="">
             <h1>Bebestibles</h1>
-            <img src="../assets/cafe2.jpg" alt="cafe">
+            <img class="altura-imagenes" src="../assets/cafe2.jpg" alt="cafe">
             </a>
 
-            <a href="">
+            <a class="col-lg-4 centrado" href="">
             <h1>Comidas</h1>
-            <img src="../assets/papa-frita.jpeg" alt="papas-fritas">
+            <img class="altura-imagenes" src="../assets/papa-frita.jpeg" alt="papas-fritas">
          </a>
         </div>
      </section>
@@ -63,152 +74,151 @@
      <!-- Productos -->
     <h2>Lista de productos</h2>
 
+
     <section class="container-fluid">
         <div class="row">
-            <div class="col-lg-1">
-                <img src="" alt="">
-            </div>
-            <a class="col-6 col-lg-2" href="producto1.html">
+
+            <a class="col-full col-lg-2 centrado" href="producto1.html">
             <img class="altura-imagenes" src="../assets/colacion-con-pollo.jpg" alt="colacion-con-pollo">
-            <p>COLACION C/ POLLO</p>
+            <h4>COLACION C/ POLLO</h4>
             <p>$5.500</p>
             </a>
 
-            <a class="col-6 col-lg-2" href="producto1.html">
+            <a class="col-full col-lg-2 centrado"  href="producto1.html">
             <img class="altura-imagenes" src="../assets/colacion-con-huevo-y-vienesa.jpg" alt="colacion-con-huevo-y-vienesa">
-            <p>COLACION VIENESA+HUEVO</p>
+            <h4>COLACION VIENESA+HUEVO</h4>
             <p>$4.500</p>
             </a>
 
-            <a class="col-6 col-lg-2" href="producto1.html">
+            <a class="col-full col-lg-2 centrado" href="producto1.html">
             <img class="altura-imagenes" src="../assets/promo-completos.jpg" alt="completo-promo">
-            <p>COMPLETO PROMO</p>
+            <h4>COMPLETO PROMO</h4>
             <p>$3.000</p>
             </a>
 
-            <a class="col-6 col-lg-2" href="producto1.html">
+            <a class="col-full col-lg-2 centrado" href="producto1.html">
             <img class="altura-imagenes" src="../assets/completo3.jpeg" alt="completo">
-            <p>COMPLETO</p>
+            <h4>COMPLETO</h4>
             <p>$2.000</p>
             </a>     
 
-            <a class="col-6 col-lg-2" href="producto1.html">
+            <a class="col-full col-lg-2 centrado" href="producto1.html">
             <img class="altura-imagenes" src="../assets/cafe2.jpg" alt="cortado">
-            <p>CORTADO M</p>
+            <h4>CORTADO M</h4>
             <p>$3.000</p>
             </a>
-            <div class="col-lg-1">
-                <img src="" alt="">
-            </div>
-        </div>
 
-    </section>
-
-    <section class="fila-container">   
-        <div class="fila">
-            <a href="producto1.html">
-            <img src="../assets/cafe2.jpg" alt="cortado">
-            <p>CORTADO S</p>
+    
+            <a class="col-full col-lg-2 centrado" href="producto1.html">
+            <img class="altura-imagenes" src="../assets/cafe2.jpg" alt="cortado">
+            <h4>CORTADO S</h4>
             <p>$2.000</p>
             </a>
         
 
-            <a href="producto1.html">
-           <img src="../assets/promo-completos2.jpg" alt="completo-promo-aleman">
-            <p>COMPLETO PROMO 2</p>
+            <a class="col-full col-lg-2 centrado" href="producto1.html">
+           <img class="altura-imagenes" src="../assets/promo-completos2.jpg" alt="completo-promo-aleman">
+            <h4>COMPLETO PROMO 2</h4>
             <p>$3.000</p>
             </a>
         
 
-            <a href="producto1.html">
-            <img src="../assets/empanada-queso.jpeg" alt="empanaditas-queso">
-            <p>EMPANADITAS QUESO X 3</p>
+            <a class="col-full col-lg-2 centrado" href="producto1.html">
+            <img class="altura-imagenes" src="../assets/empanada-queso.jpeg" alt="empanaditas-queso">
+            <h4>EMPANADITAS QUESO X 3</h4>
             <p>$1.000</p>
             </a>
          
     
-            <a href="producto1.html">
-            <img src="../assets/arrollados.jpeg" alt="arrollados-primavera">
-            <p>ARROLLADOS PRIMAVERA X 3</p>
+            <a class="col-full col-lg-2 centrado" href="producto1.html">
+            <img class="altura-imagenes" src="../assets/arrollados.jpeg" alt="arrollados-primavera">
+            <h4>ARROLLADOS PRIMAVERA X 3</h4>
             <p>$1.000</p>
             </a>
 
-            <a href="producto1.html">
-            <img src="../assets/expresso.webp" alt="expresso">
-            <p>EXPRESSO</p>
+            <a class="col-full col-lg-2 centrado" href="producto1.html">
+            <img class="altura-imagenes" src="../assets/expresso.webp" alt="expresso">
+            <h4>EXPRESSO</h4>
             <p>$2.000</p>
             </a>
+
+            <a class="col-full col-lg-2 centrado" href="producto1.html">
+                <img class="altura-imagenes" src="../assets/expresso.webp" alt="expresso">
+                <h4>EXPRESSO M</h4>
+                <p>$3.000</p>
+                </a>
+        
+                <a class="col-full col-lg-2 centrado" href="producto1.html">
+                <img class="altura-imagenes" src="../assets/jugo-caja.png" alt="jugo-caja">
+                <h4>JUGO CAJA</h4>
+                <p>$390</p>
+                </a>
+        
+                <a class="col-full col-lg-2 centrado" href="producto1.html">   
+                <img class="altura-imagenes" src="../assets/papa-frita.jpeg" alt="papa-frita">
+                <h4>PAPA FRITA L</h4>
+                <p>$3.000</p>
+                </a> 
+        
+                <a class="col-full col-lg-2 centrado" href="producto1.html">
+                <img class="altura-imagenes" src="../assets/papa-frita2.jpeg" alt="papa-frita">
+                <h4>PAPA FRITA M</h4>
+                <p>$2.000</p>
+                </a>
+        
+                <a class="col-full col-lg-2 centrado" href="producto1.html">
+                <img class="altura-imagenes" src="../assets/papa-frita2.jpeg" alt="papa-frita">
+                <h4>PAPA FRITA S</h4>
+                <p>$1.000</p>
+                </a>
+
+                <a class="col-full col-lg-2 centrado" href="producto1.html">
+                    <img class="altura-imagenes" src="../assets/salchipapa.webp" alt="salchipapa">
+                    <h2>SALCHIPAPA L</h2>
+                    <p>$3.500</p>
+                  </a>
+            
+                  <a class="col-full col-lg-2 centrado" href="producto1.html">
+                    <img class="altura-imagenes" src="../assets/salchipapa.webp" alt="salchipapa">
+                    <h2>SALCHIPAPA M</h2>
+                    <p>$2.500</p>   
+                    </a>
+            
+                    <a class="col-full col-lg-2 centrado" href="producto1.html">
+                    <img class="altura-imagenes" src="../assets/salchipapa.webp" alt="salchipapa">
+                    <h2>SALCHIPAPA S</h2>
+                    <p>$1.500</p>
+                    </a>
+            
+                    <a class="col-full col-lg-2 centrado" href="producto1.html">
+                    <img class="altura-imagenes" src="../assets/sopaipilla2.jpg" alt="sopaipilla">
+                    <h2>SOPAIPILLAS M</h2>
+                    <p>$1.000</p>
+                    </a>
+            
+                    <a class="col-full col-lg-2 centrado" href="producto1.html">
+                    <img class="altura-imagenes" src="../assets/sopaipillas.jpg" alt="sopaipillas">
+                    <h2>SOPAIPILLAS S</h2>
+                    <p>$1.000</p>
+                    </a>               
+
         </div>
-      
+
     </section>
+
+  
 
     <section class="fila-container">
     <div class="fila">
 
-        <a href="producto1.html">
-        <img src="../assets/expresso.webp" alt="expresso">
-        <p>EXPRESSO M</p>
-        <p>$3.000</p>
-        </a>
-
-        <a href="producto1.html">
-        <img src="../assets/jugo-caja.png" alt="jugo-caja">
-        <p>JUGO CAJA</p>
-        <p>$390</p>
-        </a>
-
-        <a href="producto1.html">   
-        <img src="../assets/papa-frita.jpeg" alt="papa-frita">
-        <p>PAPA FRITA L</p>
-        <p>$3.000</p>
-        </a> 
-
-        <a href="producto1.html">
-        <img src="../assets/papa-frita2.jpeg" alt="papa-frita">
-        <p>PAPA FRITA M</p>
-        <p>$2.000</p>
-        </a>
-
-        <a href="producto1.html">
-        <img src="../assets/papa-frita2.jpeg" alt="papa-frita">
-        <p>PAPA FRITA S</p>
-        <p>$1.000</p>
-        </a>
+        
 
     </div>
     </section> 
 
     <section class="fila-container">
     <div class="fila">
-        <a href="producto1.html">
-        <img src="../assets/salchipapa.webp" alt="salchipapa">
-        <p>SALCHIPAPA L</p>
-        <p>$3.500</p>
-      </a>
-
-      <a href="producto1.html">
-        <img src="../assets/salchipapa.webp" alt="salchipapa">
-        <p>SALCHIPAPA M</p>
-        <p>$2.500</p>   
-        </a>
-
-        <a href="producto1.html">
-        <img src="../assets/salchipapa.webp" alt="salchipapa">
-        <p>SALCHIPAPA S</p>
-        <p>$1.500</p>
-        </a>
-
-        <a href="producto1.html">
-        <img src="../assets/sopaipilla2.jpg" alt="sopaipilla">
-        <p>SOPAIPILLAS M</p>
-        <p>$1.000</p>
-        </a>
-
-        <a href="producto1.html">
-        <img src="../assets/sopaipillas.jpg" alt="sopaipillas">
-        <p>SOPAIPILLAS S</p>
-        <p>$1.000</p>
-        </a>
+        
      </div>   
     </section>
 
@@ -226,28 +236,35 @@
     </main>
     
     <!-- Footer -->
-    <footer>
-        <!-- Logo, título y dirección -->
-        <img class="logo"  src="../assets/logo-fritos-y-mas.jpg" alt="logo">
-        <h6>Fritos y más</h6>
-        <p>La Marina 1025, Chiguayante</p>
-        
-        <div class="container">
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="">
+                        <img src="../assets/logo-fritos-y-mas.jpg" alt="Logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Sobre nosotros</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque vel quod libero aspernatur alias laudantium iste possimus velit, ipsum maiores nihil ducimus, vero debitis natus sit placeat, dolores modi provident!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque vel quod libero aspernatur alias laudantium iste possimus velit, ipsum maiores nihil ducimus, vero debitis natus sit placeat, dolores modi provident!</p>
+            </div>
+            <div class="box">
+                <h2>Siguenos</h2>
+                <div class="red-social">
+                    <a href="" class="fa fa-facebook"></a>
+                    <a href="" class="fa fa-instagram"></a>
             
-            <!-- Menú navegable -->
-            <ul>
-                <h5>Menú principal</h5>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="servicios.html"><h5>Servicios</h5></a></li>
-                <li><a href="acerca-de.html"><h5>Acerca de</h5></a></li>
-                <h5>Encuentranos en:</h5>
-                <li><a href="https://www.instagram.com/fritoscaserosymas/"target="_blank">Instagram</a></li>
-                <li><a href="https://www.facebook.com/FritosCaserosyMas"target="_blank">Facebook</a></li>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3189.298125926188!2d-73.03104772415571!3d-36.93104257221003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b93de196aa5b%3A0xfc335cf2b247a107!2sDQ%20Market!5e0!3m2!1ses!2scl!4v1721186229549!5m2!1ses!2scl" width="100px" height="100px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </ul>
 
-          </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>Fritos y más</b> - Todos los Derechos Reservados.</small>
+
+        </div>
           
     </footer>
 
