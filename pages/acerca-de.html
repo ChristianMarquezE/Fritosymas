@@ -3,126 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2cb61d475c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../styles.css">
     <title>Fritos y más: Servicios</title>
 </head>
 <body>
     <!-- Header -->
     <header>
-        <!-- Logo más texto -->
-        <section>
-        <!-- Logo -->
-         <img class= "logo" src="../assets/logo-fritos-y-mas.jpg" alt="logo">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <img class="icono-navbar" src="../assets/logo-fritos-y-mas.jpg" alt="logo-fritos-y-mas">
+            <a class="navbar-brand" href="../index.html">Fritos y más</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Servicios
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="servicios.html">Caja vecina</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Acerca de nosotros</a></li>
+                  </ul>
 
-         <!-- Texto logo -->
-         <p>Fritos y más</p>
-
-        </section>
-         <!-- Buscador -->
-          <div class="fondo">
-            <input type="text" placeholder="Buscar">
-
-          </div>
-
-          <!-- Navegación -->
-         <nav>
-            <div>
-        
-                <a href="../index.html">Inicio</a>
-                <a href="productos.html">Productos</a>
-                <a href="servicios.html">Servicios</a>
-                <a href="acerca-de.html">Acerca de</a>
-    
-            </ul>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
             </div>
-
-            
-
-         </nav>
-     </header>
+          </div>
+        </nav>
+  </header>
 
      <!-- Contenido principal -->
-     <main>
-        <!-- Portada -->
-        <section class="fila">
-            <img src="../assets/portada.png" alt="portada">
-         </section>
-        <!-- Sobre nosotros -->
-        <section class="centrado">
-             <h1>Acerca de nosotros</h1>
-             <p>Somos una pyme familiar que empezó a innovar en el area de comidas y frituras</p>
+     <main class="contenedor__grid">
+        <section class="banner">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/portada.png" class="d-block w-100 imagen" alt="portada">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/dq.jpg" class="d-block w-100 imagen" alt="portada-dq">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/dq2.jpg" class="d-block w-100 imagen" alt="portada-encomiendas">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
 
-        <!-- Fotos DQ Market y Fritos y más -->
-        <section class="fila-container">
-            <div class="fila">
-                 <img id="foto-nosotros" src="../assets/portada.png" alt="portada">
-                  <img id="foto" src="../assets/dq.jpg" alt="dq-market">
-             </div>
+        <section class="imagen1 gap-footer">
+            <img class="ajuste-foto" src="../assets/dq.jpg" alt="dq-market">
+        </section>
+             
+        <section class="imagen2 gap-footer">
+            <img class="ajuste-foto" src="../assets/dq2.jpg" alt="dq-market2">
         </section>
 
-        <!-- Contacto -->
-        <section>
+  
+
+        <section class="contacto gap-footer">
             <h2 class="centrado">Contacto</h2>
-            <p>Whatsapp : +56961773625</p>
-            <p>Instagram: @fritoscaserosymas</p>
-            <p>Facebook: Fritos Caseros</p>  
-            <p>Correo      :crismarket@hotmail.com</p>
-        </section>   
-
-             <!-- Envianos un mensaje -->
-    <section> 
-
-        <!-- Título -->
-        <section class="fila">
-            <h2>¿Dudas, consultas o sugerencias?</h3>
+            <p class="centrado">Whatsapp : +56961773625</p>
+            <p class="centrado">Instagram: @fritoscaserosymas</p>
+            <p class="centrado">Facebook: Fritos Caseros</p>  
+            <p class="centrado">Correo      :crismarket@hotmail.com</p>
         </section>
 
-        <!-- Subtítulo y casillas para poner datos y mensaje -->
-        <section class="fila">
-            <p>Escríbenos, nos interesa saber tu opinión.</p>
-            <form action="url" method="get o post">
-            <ul>
-                <li><label for="name">Nombre</label></li>
-                <input type="text" id="name" name="user_name">
-                <li><label for="mail">Correo</label></li>
-                <input type="email" id="mail" name="user_mail">
-                <li><label for="msg">Mensaje</label></li>
-                <li><textarea name="user_message" id="msg"></textarea></li>
-                <li class="button">
-                <button type="submit">Enviar</button></li>
-            </ul>
-            </form>
+        <section class="dudas">
+            <section class="fila">
+                <div>
+                <h2>¿Dudas, consultas o sugerencias?</h2>
+                
+            </section>
+        
+            <!-- Subtítulo y casillas para poner datos y mensaje -->
+            <section class="centrado">
+                <p>Escríbenos, nos interesa saber tu opinión.</p>
+                <form action="url" method="get o post">
+                <ul>
+                    <li><label for="name">Nombre</label></li>
+                    <input type="text" id="name" name="user_name">
+                    <li><label for="mail">Correo</label></li>
+                    <input type="email" id="mail" name="user_mail">
+                    <li><label for="msg">Mensaje</label></li>
+                    <li><textarea name="user_message" id="msg"></textarea></li>
+                    <li class="button">
+                    <button type="submit">Enviar</button></li>
+                </ul>
+                </form>
+            </section>
+            
         </section>
 
-    </section>
-   
 
+        
      </main>
    
      <!-- Footer -->
-     <footer>
-        <!-- Logo y nombre y dirección -->
-        <img class="logo"  src="../assets/logo-fritos-y-mas.jpg" alt="logo">
-        <h6>Fritos y más</h6>
-        <p>La Marina 1025, Chiguayante</p>
-        
-        <div class="container">
-            
-            <!-- Menú navegable -->
-            <ul>
-                <h5>Menú principal</h5>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="servicios.html"><h5>Servicios</h5></a></li>
-                <li><a href="acerca-de.html"><h5>Acerca de</h5></a></li>
-                <h5>Encuentranos en:</h5>
-                <li><a href="https://www.instagram.com/fritoscaserosymas/"target="_blank">Instagram</a></li>
-                <li><a href="https://www.facebook.com/FritosCaserosyMas"target="_blank">Facebook</a></li>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3189.298125926188!2d-73.03104772415571!3d-36.93104257221003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b93de196aa5b%3A0xfc335cf2b247a107!2sDQ%20Market!5e0!3m2!1ses!2scl!4v1721186229549!5m2!1ses!2scl" width="100px" height="100px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </ul>
+     <footer class="pie-pagina">
+      <div class="grupo-1">
+          <div class="box">
+              <figure>
+                  <a href="">
+                      <img src="../assets/logo-fritos-y-mas.jpg" alt="Logo">
+                  </a>
+              </figure>
+          </div>
+          <div class="box">
+              <h2>Sobre nosotros</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque vel quod libero aspernatur alias laudantium iste possimus velit, ipsum maiores nihil ducimus, vero debitis natus sit placeat, dolores modi provident!</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque vel quod libero aspernatur alias laudantium iste possimus velit, ipsum maiores nihil ducimus, vero debitis natus sit placeat, dolores modi provident!</p>
+          </div>
+          <div class="box">
+              <h2>Siguenos</h2>
+              <div class="red-social">
+                  <a href="https://web.facebook.com/FritosCaserosyMas" class="fa fa-facebook"></a>
+                  <a href="https://www.instagram.com/fritoscaserosymas/" class="fa fa-instagram"></a>
+          
+
+              </div>
+
+              <div class="gap-footer">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3189.298125926188!2d-73.03104772415571!3d-36.93104257221003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b93de196aa5b%3A0xfc335cf2b247a107!2sDQ%20Market!5e0!3m2!1ses!2scl!4v1723415747001!5m2!1ses!2scl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
 
           </div>
-          
-     </footer>
+      </div>
+
+      <div class="grupo-2">
+          <small>&copy; 2024 <b>Fritos y más</b> - Todos los Derechos Reservados.</small>
+
+      </div>
+        
+  </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+ </body>
 </html>
