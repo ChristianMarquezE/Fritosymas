@@ -461,3 +461,7 @@ ul {
 .imagen-dudas-acerca-de{
   width: 50%;
 }
+
+.gap-top{
+  padding-top: 50px;
+}
