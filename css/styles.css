@@ -23,15 +23,21 @@
 }
 /* Sección de imagen superpuesta en index.html */
 .seccion-sobre-nosotros{
-    background-image: url(assets/portada.png);
+    background-image: url(../assets/portada.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 35px;
 
-}
+    a{
+    text-decoration: none;
+    color: black;
+    }
+  }
+
+
 /* Centrar portada */
 .portada-container{
     display: flex;
@@ -76,10 +82,12 @@
 
     
     /* Quitar puntos a las listas */
+    .row{
     a{
         text-decoration: none;
         color: black;
     }
+  }
     /* Ubicación de el nav   */
     nav a{
         font-weight: 600;
@@ -125,7 +133,8 @@
 }
 /*  color del sobre nosotros del index */
 #texto-index{
-    color: white;
+    color:#6AB04C;
+
 }
 /* Centrado de elementos */
 .centrado{
@@ -194,7 +203,7 @@ ul {
   }
 
   .pie-pagina .grupo-1 .red-social a:hover{
-    color: aqua;
+    color: rgb(0, 89, 255);
   }
 
   .pie-pagina .grupo-2{
@@ -225,8 +234,10 @@ ul {
     }
 
     .imagen{
-      height: 70vh;
-      width: 80%;
+      height: 30vw;
+      width: 85%;
+      position: relative;
+      left: 8vw;
     }
 
     .testimonios{
@@ -300,7 +311,7 @@ ul {
     'banner banner'
     'imagen1 imagen2'
     'contacto contacto'
-    'dudas dudas'
+    'imagen-dudas dudas'
     ;
   }
 
@@ -324,6 +335,9 @@ ul {
     grid-area: dudas;
   }
   
+  .imagen-dudas{
+    grid-area: imagen-dudas;
+  }
   .ajuste-foto{
     width: 100%;
     height: 100%;
@@ -352,3 +366,98 @@ ul {
   .imagen-helados{
     width: 40%;
   }
+
+
+  .carousel-control-next-icon{
+    position: relative;
+    right: 8vw;
+  }
+
+  .carousel-control-prev-icon{
+    position: relative;
+    left: 8vw;
+  }
+
+  @media screen and (max-width:950px){
+    .imagen{
+      height: 65vw;
+    }
+    .imagen-dq{
+      height: 65vw;
+    }
+  }
+
+  .products{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px 20px 40px;
+  }
+
+  .gap-paginas{
+    gap: 10px;
+    padding-top: 150px;
+  }
+
+  .gap-lineas{
+    padding: 100px;
+  }
+
+  .products{ 
+    a{
+      text-decoration: none;
+      color: black;
+    }
+  }
+  
+  @media screen and (max-width:950px){
+    .products{
+      flex-direction: column;
+    }
+    .contenedor__grid{
+      display: grid;
+      grid-template-rows: repeat(5, 70vh);
+      grid-template-columns: repeat(2, 6fr);
+  
+      grid-template-areas:
+      'banner banner'
+      'imagen1 imagen1'
+      'imagen2 imagen2'
+      'contacto contacto'
+      'imagen-dudas dudas'
+  }
+  }
+
+.imagen-dq{
+  height: 30vw;
+  width: 85%;
+}
+
+.padding-parrafo{
+  padding: 25px;
+}
+
+@media screen and (max-width:950px){
+  .imagen-dq{
+    height: 65vw;
+  }
+}
+
+.imagen-dudas{
+  width: 25%;
+}
+
+.fila-dudas{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width:950px){
+  .imagen-dudas{
+    height: 25%;
+  }
+}
+
+
+.imagen-dudas-acerca-de{
+  width: 50%;
+}

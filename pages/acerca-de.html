@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/2cb61d475c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Fritos y más: Servicios</title>
 </head>
 <body>
@@ -14,62 +14,63 @@
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
             <img class="icono-navbar" src="../assets/logo-fritos-y-mas.jpg" alt="logo-fritos-y-mas">
-            <a class="navbar-brand" href="../index.html">Fritos y más</a>
+            <a class="navbar-brand roboto-regular" href="../index.html">Fritos y más</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  <a class="nav-link roboto-regular" aria-current="page" href="../index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="productos.html">Productos</a>
+                  <a class="nav-link roboto-regular" href="productos.html">Productos</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle roboto-regular active" href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Servicios
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="servicios.html">Caja vecina</a></li>
+                    <li><a class="dropdown-item roboto-regular" href="servicios.html">Caja vecina</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Acerca de nosotros</a></li>
+                    <li><a class="dropdown-item roboto-regular active" href="#">Acerca de nosotros</a></li>
                   </ul>
-
+    
               </ul>
               <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                <input class="form-control me-2 roboto-regular" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success roboto-regular" type="submit">Buscar</button>
               </form>
             </div>
           </div>
         </nav>
-  </header>
+    
+      </header>
 
      <!-- Contenido principal -->
      <main class="contenedor__grid">
         <section class="banner">
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="../assets/portada.png" class="d-block w-100 imagen" alt="portada">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../assets/dq.jpg" class="d-block w-100 imagen" alt="portada-dq">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../assets/dq2.jpg" class="d-block w-100 imagen" alt="portada-encomiendas">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/portada.png" class="d-block imagen" alt="portada">
               </div>
+              <div class="carousel-item">
+                <img src="../assets/dq.jpg" class="d-block imagen" alt="portada-dq">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/dq2.jpg" class="d-block imagen" alt="portada-encomiendas">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </section>
 
         <section class="imagen1 gap-footer">
@@ -82,38 +83,45 @@
 
   
 
-        <section class="contacto gap-footer">
+        <section class="contacto gap-lineas">
             <h2 class="centrado">Contacto</h2>
             <p class="centrado">Whatsapp : +56961773625</p>
             <p class="centrado">Instagram: @fritoscaserosymas</p>
             <p class="centrado">Facebook: Fritos Caseros</p>  
-            <p class="centrado">Correo      :crismarket@hotmail.com</p>
+            <p class="centrado">Correo: crismarket@hotmail.com</p>
         </section>
 
-        <section class="dudas">
+        <section class="dudas centrado gap">
+        
             <section class="fila">
                 <div>
-                <h2>¿Dudas, consultas o sugerencias?</h2>
+                <h2 class="roboto-regular">¿Dudas, consultas o sugerencias?</h2>
                 
             </section>
+
+         
         
             <!-- Subtítulo y casillas para poner datos y mensaje -->
-            <section class="centrado">
-                <p>Escríbenos, nos interesa saber tu opinión.</p>
+            <section class="centrado gap-lineas>
+                <p class="roboto-regular">Escríbenos, nos interesa saber tu opinión.</p>
                 <form action="url" method="get o post">
                 <ul>
-                    <li><label for="name">Nombre</label></li>
+                    <li class="centrado roboto-regular" ><label for="name">Nombre</label></li>
                     <input type="text" id="name" name="user_name">
-                    <li><label for="mail">Correo</label></li>
+                    <li class="centrado roboto-regular"><label  for="mail">Correo</label></li>
                     <input type="email" id="mail" name="user_mail">
-                    <li><label for="msg">Mensaje</label></li>
+                    <li class="centrado roboto-regular" ><label   for="msg">Mensaje</label></li>
                     <li><textarea name="user_message" id="msg"></textarea></li>
                     <li class="button">
-                    <button type="submit">Enviar</button></li>
+                    <button class="centrado roboto-regular" type="submit">Enviar</button></li>
                 </ul>
                 </form>
             </section>
             
+        </section>
+
+        <section class="centrado">
+          <img class="imagen-dudas-acerca-de" src="../assets/dudas.avif" alt="">
         </section>
 
 
@@ -131,12 +139,12 @@
               </figure>
           </div>
           <div class="box">
-              <h2>Sobre nosotros</h2>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque vel quod libero aspernatur alias laudantium iste possimus velit, ipsum maiores nihil ducimus, vero debitis natus sit placeat, dolores modi provident!</p>
+              <h2 class="roboto-regular">Sobre nosotros</h2>
+              <p class="roboto-regular">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque vel quod libero aspernatur alias laudantium iste possimus velit, ipsum maiores nihil ducimus, vero debitis natus sit placeat, dolores modi provident!</p>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque vel quod libero aspernatur alias laudantium iste possimus velit, ipsum maiores nihil ducimus, vero debitis natus sit placeat, dolores modi provident!</p>
           </div>
           <div class="box">
-              <h2>Siguenos</h2>
+              <h2 class="roboto-regular">Síguenos</h2>
               <div class="red-social">
                   <a href="https://web.facebook.com/FritosCaserosyMas" class="fa fa-facebook"></a>
                   <a href="https://www.instagram.com/fritoscaserosymas/" class="fa fa-instagram"></a>
