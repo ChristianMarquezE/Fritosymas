@@ -1,0 +1,15 @@
+/* Sección de imagen superpuesta en index.html */
+.seccion-sobre-nosotros{
+    background-image: url(../assets/portada.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 35px;
+
+    a{
+    text-decoration: none;
+    color: black;
+    }
+  }

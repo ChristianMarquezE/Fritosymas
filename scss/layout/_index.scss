@@ -1,0 +1,12 @@
+/* Hacer que se distancien los elementos unos a otros */
+.fila{
+    display: flex;
+    justify-content: space-around;
+}
+
+//Altura imagen DQ Servicios
+.imagen-dq{
+    height: 30vw;
+    width: 85%;
+  }
+
