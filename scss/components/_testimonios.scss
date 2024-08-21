@@ -1,31 +1,32 @@
+//Sección de Testimonios
 .testimonios{
     padding: 40px 0;
     background: #f1f1f1;
     color: #434343;
     text-align: center;
   }
-
+//Parte interna de Testimonios
   .inner{
     max-width: 1200px;
     margin: auto;
     overflow: hidden;
     padding: 0 20px;
   }
-
+//Borde de Testimonios
   .border{
     width: 160px;
     height: 5px;
     background: #6ab04c;
     margin: 26px auto;
   }
-
+//Ajuste flex en filas
   .row{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  
+  //Separación de Testimonios
   .col{
     flex: 33.33%;
     max-width: 33.33%;
@@ -33,11 +34,11 @@
     padding: 15px;
   }
 
-  
+  //Color del Testimonio y padding
   .testimonio{
     background: #fff;
     padding: 30px;
-
+  //Foto del Testimonio
     img{
         width: 100px;
         height: 100px;
@@ -45,13 +46,13 @@
       }
   }
 
-  
+//Nombre del Testimonio
   .nombre{
     font-size: 20px;
     text-transform: uppercase;
     margin: 20px 0;
   }
-
+//Estrellas del Testimonio
   .estrellas{
     color: #6ab04c;
     margin-bottom: 20px;

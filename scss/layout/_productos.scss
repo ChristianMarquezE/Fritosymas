@@ -3,36 +3,36 @@
     display: flex;
     justify-content: center;
 }
-
+//Tamaño imagenes Productos
 .altura-imagenes{
     height: 200px;
     width: 200px;
  
   
   }
-
+//Tamaño imagen producto
   .altura-tequeños{
     width: 30%;
   }
 
-  
+  //Productos Novedosos
   .products{
     display: flex;
     justify-content: space-between;
     margin: 20px 40px 20px 40px;
-    
+
     a{
         text-decoration: none;
         color: black;
       }
   }
 
-  
+  //Gap números para pasar página
   .gap-paginas{
     gap: 10px;
     padding-top: 150px;
   }
-
+  //Padding entre secciones
   .gap-lineas{
     padding: 100px;
   }

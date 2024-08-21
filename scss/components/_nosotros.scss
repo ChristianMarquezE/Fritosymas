@@ -1,21 +1,25 @@
 /* Sección de imagen superpuesta en index.html */
 .seccion-sobre-nosotros{
-    background-image: url(../assets/portada.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: rgb(255, 255, 255);
+  background: linear-gradient(180deg, #00000000, #000000c3), url("..//assets/portada.png");
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
     padding: 35px;
+   
 
     a{
     text-decoration: none;
-    color: black;
+    color: white;
+    
+//Título de sección sobre nosotros
+    h1{
+      background: linear-gradient(to-left, #ffffff, #ff0000);
+      // background-image: url(../assets/dq2.jpg);
+      background-position: top center;
+      // background-size: cover;
+      background-clip: text;
+      background-attachment: fixed;
+
+      }
     }
-  }
-
-  /*  color del sobre nosotros del index */
-#texto-index{
-  color:#6AB04C;
-
-}
+    }

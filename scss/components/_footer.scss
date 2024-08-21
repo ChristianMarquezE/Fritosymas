@@ -1,14 +1,8 @@
-    /* Margen de elemtnos inddividuales del footer !!! */ 
-    footer li {
-        margin-right: 10px;
-      }
-
-
-     
-  .pie-pagina{
+//Footer color y ancho
+.pie-pagina{
     width: 100%;
     background-color: #ffffff;
-
+    //Grid del footer
     .grupo-1{
         width: 100%;
         max-width: 1200px;
@@ -17,7 +11,7 @@
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 50px;
         padding: 45px 0px;
-
+        //Colores y ancho con alto
         .box{
             figure{
                 width: 100%;
@@ -42,7 +36,7 @@
                 margin-bottom: 10px;
             }
         }   
-
+        //Hover y iconos redes sociales
         .red-social{
 
             a{
@@ -63,7 +57,7 @@
             }
         }
       }
-
+//Colores y pie de página con título
     .grupo-2{
         background-color: #0a1a2a;
         padding: 15px 10px;

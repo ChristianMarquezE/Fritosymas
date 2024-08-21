@@ -1,17 +1,19 @@
- 
-    .imagen{
-        height: 30vw;
-        width: 85%;
-        position: relative;
-        left: 8vw;
-      }
+//Altura, ancho y posición del Carousel
+.imagen{
+  height: 30vw;
+  width: 85%;
+  position: relative;
+  left: 8vw;
+  }
   
-      .carousel-control-next-icon{
-        position: relative;
-        right: 8vw;
-      }
-    
-      .carousel-control-prev-icon{
-        position: relative;
-        left: 8vw;
-      }
+//Posición del botón avanzar del Carousel
+.carousel-control-next-icon{
+  position: relative;
+  right: 8vw;
+  }
+
+//Posición del botón retroceder del Carousel
+.carousel-control-prev-icon{
+  position: relative;
+  left: 8vw;
+  }
