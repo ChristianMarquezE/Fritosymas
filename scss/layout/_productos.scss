@@ -10,3 +10,29 @@
  
   
   }
+
+  .altura-tequeños{
+    width: 30%;
+  }
+
+  
+  .products{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px 20px 40px;
+    
+    a{
+        text-decoration: none;
+        color: black;
+      }
+  }
+
+  
+  .gap-paginas{
+    gap: 10px;
+    padding-top: 150px;
+  }
+
+  .gap-lineas{
+    padding: 100px;
+  }

@@ -1,4 +1,10 @@
 @charset "UTF-8";
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Reset */
 * {
   margin: 0;
@@ -19,6 +25,16 @@ ul {
 .imagen {
   height: 30vw;
   width: 85%;
+  position: relative;
+  left: 8vw;
+}
+
+.carousel-control-next-icon {
+  position: relative;
+  right: 8vw;
+}
+
+.carousel-control-prev-icon {
   position: relative;
   left: 8vw;
 }
@@ -175,6 +191,14 @@ footer li {
   margin-bottom: 20px;
 }
 
+.imagen-dudas {
+  width: 25%;
+}
+
+.imagen-dudas-acerca-de {
+  width: 50%;
+}
+
 /* Hacer que se distancien los elementos unos a otros */
 .fila {
   display: flex;
@@ -191,6 +215,88 @@ footer li {
   text-align: center;
 }
 
+.imagen-helados {
+  width: 40%;
+}
+
+.padding-parrafo {
+  padding: 25px;
+}
+
+.gap-top {
+  padding-top: 50px;
+}
+
+.contenedor__grid {
+  display: grid;
+  grid-template-rows: repeat(4, 70vh);
+  grid-template-columns: repeat(2, 6fr);
+  grid-template-areas: "banner banner" "imagen1 imagen2" "contacto contacto" "imagen-dudas dudas";
+}
+
+.banner {
+  grid-area: banner;
+}
+
+.imagen1 {
+  grid-area: imagen1;
+}
+
+.imagen2 {
+  grid-area: imagen2;
+}
+
+.contacto {
+  grid-area: contacto;
+}
+
+.dudas {
+  grid-area: dudas;
+}
+
+.imagen-dudas {
+  grid-area: imagen-dudas;
+}
+
+.ajuste-foto {
+  width: 100%;
+  height: 100%;
+}
+
+/*Centrar números de páginas */
+.fila-container {
+  display: flex;
+  justify-content: center;
+}
+
+.altura-imagenes {
+  height: 200px;
+  width: 200px;
+}
+
+.altura-tequeños {
+  width: 30%;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px 20px 40px;
+}
+.products a {
+  text-decoration: none;
+  color: black;
+}
+
+.gap-paginas {
+  gap: 10px;
+  padding-top: 150px;
+}
+
+.gap-lineas {
+  padding: 100px;
+}
+
 @media screen and (max-width: 800px) {
   .pie-pagina .grupo-1 {
     width: 90%;
@@ -205,15 +311,34 @@ footer li {
     max-width: 100%;
   }
 }
-/*Centrar números de páginas */
-.fila-container {
-  display: flex;
-  justify-content: center;
+@media screen and (max-width: 950px) {
+  .imagen {
+    height: 65vw;
+  }
+  .imagen-dq {
+    height: 65vw;
+  }
 }
-
-.altura-imagenes {
-  height: 200px;
-  width: 200px;
+@media screen and (max-width: 950px) {
+  .products {
+    flex-direction: column;
+  }
+  .contenedor__grid {
+    display: grid;
+    grid-template-rows: repeat(5, 70vh);
+    grid-template-columns: repeat(2, 6fr);
+    grid-template-areas: "banner banner" "imagen1 imagen1" "imagen2 imagen2" "contacto contacto" "imagen-dudas dudas";
+  }
+}
+@media screen and (max-width: 950px) {
+  .imagen-dq {
+    height: 65vw;
+  }
+}
+@media screen and (max-width: 950px) {
+  .imagen-dudas {
+    height: 25%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

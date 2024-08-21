@@ -1,3 +1,4 @@
+
 //base
 @import "base/vars";
 @import "base/utilities";
@@ -8,8 +9,10 @@
 @import "components/footer";
 @import "components/nosotros";
 @import "components/testimonios";
+@import "components/mensajes";
 //layout
 @import "layout/index";
 @import "layout/contacto";
-@import "layout/mediaqueries";
+@import "layout/grid";
 @import "layout/productos";
+@import "layout/mediaqueries";
