@@ -182,6 +182,7 @@ ul {
 
 .imagen-dudas {
   width: 25%;
+  height: 25%;
 }
 
 .imagen-dudas-acerca-de {
@@ -218,7 +219,7 @@ ul {
 
 .contenedor__grid {
   display: grid;
-  grid-template-rows: repeat(4, 70vh);
+  grid-template-rows: repeat(4, 65h);
   grid-template-columns: repeat(2, 6fr);
   grid-template-areas: "banner banner" "imagen1 imagen2" "contacto contacto" "imagen-dudas dudas";
 }
@@ -314,7 +315,7 @@ ul {
   }
   .contenedor__grid {
     display: grid;
-    grid-template-rows: repeat(5, 70vh);
+    grid-template-rows: repeat(5, 65vh);
     grid-template-columns: repeat(2, 6fr);
     grid-template-areas: "banner banner" "imagen1 imagen1" "imagen2 imagen2" "contacto contacto" "imagen-dudas dudas";
   }
