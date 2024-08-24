@@ -6,28 +6,28 @@
     text-align: center;
   }
 //Parte interna de Testimonios
-  .inner{
+  .testimonios__interno{
     max-width: 1200px;
     margin: auto;
     overflow: hidden;
     padding: 0 20px;
   }
 //Borde de Testimonios
-  .border{
+  .testimonios__interno--borde{
     width: 160px;
     height: 5px;
     background: #6ab04c;
     margin: 26px auto;
   }
 //Ajuste flex en filas
-  .row{
+  .testimonios__interno--fila{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
   //Separación de Testimonios
-  .col{
+  .testimonios__interno--columna{
     flex: 33.33%;
     max-width: 33.33%;
     box-sizing: border-box;
@@ -35,7 +35,7 @@
   }
 
   //Color del Testimonio y padding
-  .testimonio{
+  .interno--columna--testimonio{
     background: #fff;
     padding: 30px;
   //Foto del Testimonio
@@ -47,13 +47,13 @@
   }
 
 //Nombre del Testimonio
-  .nombre{
+  .columna--testimonio--nombre{
     font-size: 20px;
     text-transform: uppercase;
     margin: 20px 0;
   }
 //Estrellas del Testimonio
-  .estrellas{
+  .testimonio--nombre--estrellas{
     color: #6ab04c;
     margin-bottom: 20px;
   }

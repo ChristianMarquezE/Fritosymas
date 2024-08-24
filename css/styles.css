@@ -23,7 +23,7 @@ ul {
   list-style: none;
 }
 
-.imagen {
+.carousel__imagen {
   height: 30vw;
   width: 85%;
   position: relative;
@@ -40,16 +40,16 @@ ul {
   left: 8vw;
 }
 
-.icono-navbar {
+.navbar__container-fluid--icono {
   width: 30px;
   height: 24px;
 }
 
-.pie-pagina {
+.footer {
   width: 100%;
   background-color: #ffffff;
 }
-.pie-pagina .grupo-1 {
+.footer .footer__grupo1 {
   width: 100%;
   max-width: 1200px;
   margin: auto;
@@ -58,26 +58,26 @@ ul {
   grid-gap: 50px;
   padding: 45px 0px;
 }
-.pie-pagina .grupo-1 .box figure {
+.footer .footer__grupo1 .footer__grupo1--caja figure {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.pie-pagina .grupo-1 .box figure img {
+.footer .footer__grupo1 .footer__grupo1--caja figure img {
   width: 250px;
 }
-.pie-pagina .grupo-1 .box h2 {
+.footer .footer__grupo1 .footer__grupo1--caja h2 {
   color: rgb(0, 0, 0);
   margin-bottom: 25px;
   font-size: 20px;
 }
-.pie-pagina .grupo-1 .box p {
+.footer .footer__grupo1 .footer__grupo1--caja p {
   color: #a1a1a1;
   margin-bottom: 10px;
 }
-.pie-pagina .grupo-1 .red-social a {
+.footer .footer__grupo1 .grupo1--caja--redes a {
   display: inline-block;
   text-decoration: none;
   width: 45px;
@@ -89,40 +89,34 @@ ul {
   text-align: center;
   transition: all 300ms ease;
 }
-.pie-pagina .grupo-1 .red-social a:hover {
+.footer .footer__grupo1 .grupo1--caja--redes a:hover {
   color: rgb(0, 89, 255);
 }
-.pie-pagina .grupo-2 {
+.footer .footer__grupo2 {
   background-color: #0a1a2a;
   padding: 15px 10px;
   text-align: center;
   color: #fff;
 }
-.pie-pagina .grupo-2 small {
+.footer .footer__grupo2 small {
   font-size: 15px;
 }
 
-.gap-footer {
+.padding-top-25 {
   padding-top: 25px;
 }
 
 /* Sección de imagen superpuesta en index.html */
-.seccion-sobre-nosotros {
+.sobre-nosotros {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7647058824)), url("..//assets/portada.png");
   background-position: top center;
   background-attachment: fixed;
   background-size: cover;
   padding: 35px;
 }
-.seccion-sobre-nosotros a {
+.sobre-nosotros a {
   text-decoration: none;
   color: white;
-}
-.seccion-sobre-nosotros a h1 {
-  background: linear-gradient(to-left, #ffffff, #ff0000);
-  background-position: top center;
-  background-clip: text;
-  background-attachment: fixed;
 }
 
 .testimonios {
@@ -132,50 +126,50 @@ ul {
   text-align: center;
 }
 
-.inner {
+.testimonios__interno {
   max-width: 1200px;
   margin: auto;
   overflow: hidden;
   padding: 0 20px;
 }
 
-.border {
+.testimonios__interno--borde {
   width: 160px;
   height: 5px;
   background: #6ab04c;
   margin: 26px auto;
 }
 
-.row {
+.testimonios__interno--fila {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.col {
+.testimonios__interno--columna {
   flex: 33.33%;
   max-width: 33.33%;
   box-sizing: border-box;
   padding: 15px;
 }
 
-.testimonio {
+.interno--columna--testimonio {
   background: #fff;
   padding: 30px;
 }
-.testimonio img {
+.interno--columna--testimonio img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
 
-.nombre {
+.columna--testimonio--nombre {
   font-size: 20px;
   text-transform: uppercase;
   margin: 20px 0;
 }
 
-.estrellas {
+.testimonio--nombre--estrellas {
   color: #6ab04c;
   margin-bottom: 20px;
 }
@@ -205,56 +199,56 @@ ul {
   text-align: center;
 }
 
-.imagen-helados {
+.imagenes-caja-vecina {
   width: 40%;
 }
 
-.padding-parrafo {
+.padding-25 {
   padding: 25px;
 }
 
-.gap-top {
+.padding-top-50 {
   padding-top: 50px;
 }
 
-.contenedor__grid {
+.contenedor-grid {
   display: grid;
   grid-template-rows: repeat(4, 65h);
   grid-template-columns: repeat(2, 6fr);
-  grid-template-areas: "banner banner" "imagen1 imagen2" "contacto contacto" "imagen-dudas dudas";
+  grid-template-areas: "contenedor-grid__banner contenedor-grid__banner" "contenedor-grid__imagen-1 contenedor-grid__imagen-2" "contenedor-grid__contacto contenedor-grid__contacto" "imagen-dudas contenedor-grid__dudas";
 }
 
-.banner {
-  grid-area: banner;
+.contenedor-grid__banner {
+  grid-area: contenedor-grid__banner;
 }
 
-.imagen1 {
-  grid-area: imagen1;
+.contenedor-grid__imagen-1 {
+  grid-area: contenedor-grid__imagen-1;
 }
 
-.imagen2 {
-  grid-area: imagen2;
+.contenedor-grid__imagen-2 {
+  grid-area: contenedor-grid__imagen-2;
 }
 
-.contacto {
-  grid-area: contacto;
+.contenedor-grid__contacto {
+  grid-area: contenedor-grid__contacto;
 }
 
-.dudas {
-  grid-area: dudas;
+.contenedor-grid__dudas {
+  grid-area: contenedor-grid__dudas;
 }
 
-.imagen-dudas {
-  grid-area: imagen-dudas;
+.contenedor-grid__imagen-dudas {
+  grid-area: contenedor-grid__imagen-dudas;
 }
 
-.ajuste-foto {
+.contenedor-grid--ajuste-foto {
   width: 100%;
   height: 100%;
 }
 
 /*Centrar números de páginas */
-.fila-container {
+.container-fila {
   display: flex;
   justify-content: center;
 }
@@ -264,7 +258,7 @@ ul {
   width: 200px;
 }
 
-.altura-tequeños {
+.altura-producto {
   width: 30%;
 }
 
@@ -278,17 +272,17 @@ ul {
   color: black;
 }
 
-.gap-paginas {
+.espaciado-paginas {
   gap: 10px;
   padding-top: 150px;
 }
 
-.gap-lineas {
+.gap-grid {
   padding: 100px;
 }
 
 @media screen and (max-width: 800px) {
-  .pie-pagina .grupo-1 {
+  .footer .footer__grupo1 {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
@@ -296,16 +290,13 @@ ul {
   }
 }
 @media screen and (max-width: 960px) {
-  .col {
+  .testimonios__interno--columna {
     flex: 100%;
     max-width: 100%;
   }
 }
 @media screen and (max-width: 950px) {
-  .imagen {
-    height: 65vw;
-  }
-  .imagen-dq {
+  .carousel__imagen {
     height: 65vw;
   }
 }
@@ -313,11 +304,11 @@ ul {
   .products {
     flex-direction: column;
   }
-  .contenedor__grid {
+  .contenedor-grid {
     display: grid;
     grid-template-rows: repeat(5, 65vh);
     grid-template-columns: repeat(2, 6fr);
-    grid-template-areas: "banner banner" "imagen1 imagen1" "imagen2 imagen2" "contacto contacto" "imagen-dudas dudas";
+    grid-template-areas: "contenedor-grid__banner contenedor-grid__banner" "contenedor-grid__imagen-1 contenedor-grid__imagen-1" "contenedor-grid__imagen-2 contenedor-grid__imagen-2" "contenedor-grid__contacto contenedor-grid__contacto" "imagen-dudas contenedor-grid__dudas";
   }
 }
 @media screen and (max-width: 950px) {

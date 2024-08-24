@@ -14,7 +14,7 @@
 <header>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <img class="icono-navbar" src="../assets/logo-fritos-y-mas.jpg" alt="logo-fritos-y-mas">
+        <img class="navbar__container-fluid--icono" src="../assets/logo-fritos-y-mas.jpg" alt="logo-fritos-y-mas">
         <a class="navbar-brand roboto-regular" href="../index.html">Fritos y más</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -51,8 +51,8 @@
      <main>
         <!-- Vista del producto con su descripción -->
         <section class="container-fluid">    
-          <div class="row centrado">
-          <img class="altura-tequeños" src="../assets/tequeños-queso.jpeg" alt="tequeños">
+          <div class="centrado">
+          <img class="altura-producto" src="../assets/tequeños-queso.jpeg" alt="tequeños">
             <h2>Tequeños x 3</h2>
             <div class="estrellas">
               <i class="fa-solid fa-star"></i>
@@ -68,35 +68,35 @@
         </section>   
         
         <!-- Productos similares -->
-        <h1 class="centrado gap-lineas">Productos similares</h1>
+        <h1 class="centrado gap-grid">Productos similares</h1>
         <section class="container-fluid">
-          <div class="row">
+          <div class="products centrado">
             <a class="col-full col-lg-2 centrado" href="producto1.html">
                 <img class="altura-imagenes" src="../assets/completo3.jpeg" alt="completo">
-                <h4>COMPLETO</h4>
-                <h6>$2.000</h6>
+                <h2>COMPLETO</h2>
+                <h3>$2.000</h3>
             </a>     
 
                 <a class="col-full col-lg-2 centrado" href="producto1.html">
                     <img class="altura-imagenes" src="../assets/promo-completos.jpg" alt="completo-promo">
-                    <h4>COMPLETO PROMO</h4>
-                    <h6>$3.000</h6>
+                    <h2>COMPLETO PROMO</h2>
+                    <h3>$3.000</h3>
                 </a>
                 <a class="col-full col-lg-2 centrado" href="producto1.html">
                     <img class="altura-imagenes" src="../assets/sopaipilla2.jpg" alt="sopaipilla">
-                    <h4>SOPAIPILLAS M</h4>
-                    <h6>$1.000</h6>
+                    <h2>SOPAIPILLAS M</h2>
+                    <h3>$1.000</h3>
                 </a>
 
                 <a class="col-full col-lg-2 centrado" href="producto1.html">
                     <img class="altura-imagenes" src="../assets/empanada-queso.jpeg" alt="empanaditas-queso">
-                    <h4>EMPANADITAS QUESO X 3</h4>
-                    <h6>$1.000</h6>
+                    <h2>EMPANADITAS QUESO X 3</h2>
+                    <h3>$1.000</h3>
                 </a>
                 <a class="col-full col-lg-2 centrado" href="producto1.html">
                     <img class="altura-imagenes" src="../assets/arrollados.jpeg" alt="arrollados-primavera">
-                    <h4>ARROLLADOS PRIMAVERA X 3</h4>
-                    <h6>$1.000</h6>
+                    <h2>ARROLLADOS PRIMAVERA X 3</h2>
+                    <h3>$1.000</h3>
                     </a>
 
             </div>
@@ -104,8 +104,8 @@
         </section>
 
         <!-- Sección de Reseñas del artículo -->
-        <div class="testimonios">
-          <div class="inner">
+        <!-- <div class="testimonios">
+          <div class="testimonios__interno">
               <h2>Testimonios</h2>
               <div class="border"></div>
   
@@ -160,40 +160,40 @@
               </div>
           </div>       
       </div> 
-  
+   -->
     </main>
 <!-- Footer -->
-<footer class="pie-pagina">
-  <div class="grupo-1">
-      <div class="box">
+<footer class="footer">
+  <div class="footer__grupo1">
+      <div class="footer__grupo1--caja">
           <figure>
               <a href="">
                   <img src="../assets/logo-fritos-y-mas.jpg" alt="Logo">
               </a>
           </figure>
       </div>
-      <div class="box">
+      <div class="footer__grupo1--caja">
           <h2 class="roboto-regular">Sobre nosotros</h2>
           <p class="roboto-regular">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque vel quod libero aspernatur alias laudantium iste possimus velit, ipsum maiores nihil ducimus, vero debitis natus sit placeat, dolores modi provident!</p>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque vel quod libero aspernatur alias laudantium iste possimus velit, ipsum maiores nihil ducimus, vero debitis natus sit placeat, dolores modi provident!</p>
       </div>
-      <div class="box">
+      <div class="footer__grupo1--caja">
           <h2 class="roboto-regular">Síguenos</h2>
-          <div class="red-social">
+          <div class="grupo1--caja--redes">
               <a href="https://web.facebook.com/FritosCaserosyMas" class="fa fa-facebook"></a>
               <a href="https://www.instagram.com/fritoscaserosymas/" class="fa fa-instagram"></a>
       
 
           </div>
 
-          <div class="gap-footer">
+          <div class="padding-top-25">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3189.298125926188!2d-73.03104772415571!3d-36.93104257221003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b93de196aa5b%3A0xfc335cf2b247a107!2sDQ%20Market!5e0!3m2!1ses!2scl!4v1723415747001!5m2!1ses!2scl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
       </div>
   </div>
 
-  <div class="grupo-2">
+  <div class="footer__grupo2">
       <small>&copy; 2024 <b>Fritos y más</b> - Todos los Derechos Reservados.</small>
 
   </div>

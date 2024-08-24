@@ -1,5 +1,5 @@
 /*Centrar números de páginas */
-.fila-container{
+.container-fila{
     display: flex;
     justify-content: center;
 }
@@ -11,7 +11,7 @@
   
   }
 //Tamaño imagen producto
-  .altura-tequeños{
+  .altura-producto{
     width: 30%;
   }
 
@@ -28,11 +28,11 @@
   }
 
   //Gap números para pasar página
-  .gap-paginas{
+  .espaciado-paginas{
     gap: 10px;
     padding-top: 150px;
   }
   //Padding entre secciones
-  .gap-lineas{
+  .gap-grid{
     padding: 100px;
   }

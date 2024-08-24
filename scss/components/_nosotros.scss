@@ -1,25 +1,15 @@
 /* Sección de imagen superpuesta en index.html */
-.seccion-sobre-nosotros{
+.sobre-nosotros{
   background: linear-gradient(180deg, #00000000, #000000c3), url("..//assets/portada.png");
   background-position: top center;
   background-attachment: fixed;
   background-size: cover;
-    padding: 35px;
-   
+  padding: 35px;
 
-    a{
+
+  a{
     text-decoration: none;
     color: white;
     
-//Título de sección sobre nosotros
-    h1{
-      background: linear-gradient(to-left, #ffffff, #ff0000);
-      // background-image: url(../assets/dq2.jpg);
-      background-position: top center;
-      // background-size: cover;
-      background-clip: text;
-      background-attachment: fixed;
-
-      }
-    }
-    }
+  }
+}
