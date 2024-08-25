@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2cb61d475c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <title>Fritos y más: Café M</title>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img class="navbar__container-fluid--icono" src="../../assets/logo-fritos-y-mas.jpg" alt="logo-fritos-y-mas">
+        <a class="navbar-brand roboto-regular" href="../../index.html">Fritos y más</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link roboto-regular" aria-current="page" href="../../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link roboto-regular active" href="../productos.html">Productos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle roboto-regular" href="../servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Servicios
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item roboto-regular" href="../servicios.html">Caja vecina</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item roboto-regular" href="../acerca-de.html">Acerca de nosotros</a></li>
+              </ul>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 roboto-regular" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success roboto-regular" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+<!-- Contenido principal -->
+     <main>
+        <!-- Vista del producto con su descripción -->
+        <section class="container-fluid">    
+          <div class="centrado">
+          <img class="altura-producto" src="../../assets/cafe.jpg" alt="cafe">
+            <h2>Café M</h2>
+            <div class="estrellas">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+           </div>
+            <p>4 Reviews</p>
+            <h3>$1.300</h3>
+            <p>Café instantaneo mediano</p>
+          </div>
+        </section>   
+        
+        <!-- Productos similares -->
+        <h1 class="centrado gap-grid">Productos similares</h1>
+        <section class="container-fluid">
+          <div class="products centrado">
+            <a class="products__card col-full col-lg-2 centrado" href="completo.html">
+                <img class="altura-imagenes" src="../../assets/completo2.jpg" alt="completo">
+                <h2>COMPLETO</h2>
+                <h3>$2.000</h3>
+            </a>     
+
+                <a class="products__card col-full col-lg-2 centrado" href="completo-promo.html">
+                    <img class="altura-imagenes" src="../../assets/promo-completos.jpg" alt="completo-promo">
+                    <h2>COMPLETO PROMO</h2>
+                    <h3>$3.000</h3>
+                </a>
+                <a class="products__card col-full col-lg-2 centrado" href="sopaipillas-m.html">
+                    <img class="altura-imagenes" src="../../assets/sopaipilla2.jpg" alt="sopaipilla">
+                    <h2>SOPAIPILLAS M</h2>
+                    <h3>$1.000</h3>
+                </a>
+
+                <a class="products__card col-full col-lg-2 centrado" href="empanaditas-de-queso.html">
+                    <img class="altura-imagenes" src="../../assets/empanada-queso.jpeg" alt="empanaditas-queso">
+                    <h2>EMPANADITAS QUESO X 3</h2>
+                    <h3>$1.000</h3>
+                </a>
+                <a class="products__card col-full col-lg-2 centrado" href="arrollados-primavera.html">
+                    <img class="altura-imagenes" src="../../assets/arrollados.jpeg" alt="arrollados-primavera">
+                    <h2>ARROLLADOS PRIMAVERA X 3</h2>
+                    <h3>$1.000</h3>
+                    </a>
+
+            </div>
+    
+        </section>
+
+        <!-- Sección de Reseñas del artículo -->
+        <!-- <div class="testimonios">
+          <div class="testimonios__interno">
+              <h2>Testimonios</h2>
+              <div class="border"></div>
+  
+              <div class="row">
+                  <div class="col">
+                      <div class="testimonio">
+                           <img src="../assets/foto-perfil.png" alt="foto-perfil">
+                           <div class="nombre">Nombre Completo</div>
+                           <div class="estrellas">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+  
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptas quo maiores beatae illum quae, cum, eos modi necessitatibus voluptates eum maxime quas. Officia dolor consectetur distinctio, inventore recusandae voluptatibus.</p>
+                      </div>
+                  </div>
+  
+                  <div class="col">
+                      <div class="testimonio">
+                           <img src="../assets/foto-perfil.png" alt="foto-perfil">
+                           <div class="nombre">Nombre Completo</div>
+                           <div class="estrellas">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+  
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptas quo maiores beatae illum quae, cum, eos modi necessitatibus voluptates eum maxime quas. Officia dolor consectetur distinctio, inventore recusandae voluptatibus.</p>
+                      </div>
+                  </div>
+  
+                  <div class="col">
+                      <div class="testimonio">
+                           <img src="../assets/foto-perfil.png" alt="foto-perfil">
+                           <div class="nombre">Nombre Completo</div>
+                           <div class="estrellas">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+  
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptas quo maiores beatae illum quae, cum, eos modi necessitatibus voluptates eum maxime quas. Officia dolor consectetur distinctio, inventore recusandae voluptatibus.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>       
+      </div> 
+   -->
+    </main>
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer__grupo1">
+      <div class="footer__grupo1--caja">
+          <figure>
+              <a href="">
+                  <img src="../../assets/logo-fritos-y-mas.jpg" alt="Logo">
+              </a>
+          </figure>
+      </div>
+      <div class="footer__grupo1--caja">
+          <h2 class="roboto-regular">Sobre nosotros</h2>
+          <p class="roboto-regular">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque vel quod libero aspernatur alias laudantium iste possimus velit, ipsum maiores nihil ducimus, vero debitis natus sit placeat, dolores modi provident!</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque vel quod libero aspernatur alias laudantium iste possimus velit, ipsum maiores nihil ducimus, vero debitis natus sit placeat, dolores modi provident!</p>
+      </div>
+      <div class="footer__grupo1--caja">
+          <h2 class="roboto-regular">Síguenos</h2>
+          <div class="grupo1--caja--redes">
+              <a href="https://web.facebook.com/FritosCaserosyMas" class="fa fa-facebook"></a>
+              <a href="https://www.instagram.com/fritoscaserosymas/" class="fa fa-instagram"></a>
+      
+
+          </div>
+
+          <div class="padding-top-25">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3189.298125926188!2d-73.03104772415571!3d-36.93104257221003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b93de196aa5b%3A0xfc335cf2b247a107!2sDQ%20Market!5e0!3m2!1ses!2scl!4v1723415747001!5m2!1ses!2scl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+      </div>
+  </div>
+
+  <div class="footer__grupo2">
+      <small>&copy; 2024 <b>Fritos y más</b> - Todos los Derechos Reservados.</small>
+
+  </div>
+    
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+</body>
+</html>

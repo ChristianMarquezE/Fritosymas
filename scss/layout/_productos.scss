@@ -20,6 +20,7 @@
     display: flex;
     justify-content: space-between;
     margin: 20px 40px 20px 40px;
+    
 
     a{
         text-decoration: none;
@@ -36,3 +37,9 @@
   .gap-grid{
     padding: 100px;
   }
+
+.products__card{
+ 
+  background-color: rgb(241, 241, 241);
+  border-radius: 8px;
+}

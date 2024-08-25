@@ -74,7 +74,7 @@ ul {
   font-size: 20px;
 }
 .footer .footer__grupo1 .footer__grupo1--caja p {
-  color: #a1a1a1;
+  color: #000000;
   margin-bottom: 10px;
 }
 .footer .footer__grupo1 .grupo1--caja--redes a {
@@ -279,6 +279,11 @@ ul {
 
 .gap-grid {
   padding: 100px;
+}
+
+.products__card {
+  background-color: rgb(241, 241, 241);
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 800px) {
