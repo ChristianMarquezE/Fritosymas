@@ -7,13 +7,13 @@
 /* Quitar puntos a las listas */
 .row{
      a{
-        text-decoration: none;
+        text-decoration: $no;
         color: black;
         }
     }
 
 /* Quitar puntos a las listas */
 ul {
-    list-style: none;
+    list-style: $no;
     }
     

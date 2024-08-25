@@ -1,5 +1,4 @@
 //Icono del navbar tamaño
       .navbar__container-fluid--icono{
-        width: 30px;
-        height: 24px;
+        @include sizes(30px, 24px);
       }

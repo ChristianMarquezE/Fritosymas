@@ -1,13 +1,11 @@
 /*Centrar números de páginas */
 .container-fila{
-    display: flex;
-    justify-content: center;
+    display: $flx;
+    justify-content: $cntr;
 }
 //Tamaño imagenes Productos
 .altura-imagenes{
-    height: 200px;
-    width: 200px;
- 
+  @include sizes (200px, 200px);
   
   }
 //Tamaño imagen producto
@@ -17,13 +15,13 @@
 
   //Productos Novedosos
   .products{
-    display: flex;
+    display: $flx;
     justify-content: space-between;
     margin: 20px 40px 20px 40px;
     
 
     a{
-        text-decoration: none;
+        text-decoration: $no;
         color: black;
       }
   }

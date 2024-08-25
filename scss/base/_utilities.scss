@@ -6,3 +6,15 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  @mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+} 
+
+@mixin display($display, $justify, $align){
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+
+}

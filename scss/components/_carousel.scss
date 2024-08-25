@@ -1,9 +1,7 @@
 //Altura, ancho y posición del Carousel
 .carousel__imagen{
-  height: 30vw;
-  width: 85%;
-  position: relative;
-  left: 8vw;
+  @include sizes(85%, 30vw);
+ @extend .carousel-control-prev-icon;
   }
   
 //Posición del botón avanzar del Carousel

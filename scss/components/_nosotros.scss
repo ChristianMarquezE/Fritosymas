@@ -1,14 +1,14 @@
 /* Sección de imagen superpuesta en index.html */
 .sobre-nosotros{
   background: linear-gradient(180deg, #00000000, #000000c3), url("..//assets/portada.png");
-  background-position: top center;
+  background-position: top $cntr;
   background-attachment: fixed;
   background-size: cover;
   padding: 35px;
 
 
   a{
-    text-decoration: none;
+    text-decoration: $no;
     color: white;
     
   }

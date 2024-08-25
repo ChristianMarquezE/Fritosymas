@@ -1,19 +1,18 @@
 /* Hacer que se distancien los elementos unos a otros */
 .fila{
-    display: flex;
+    display: $flx;
     justify-content: space-around;
 }
 
 //Altura imagen DQ Servicios
 .imagen-dq{
-    height: 30vw;
-    width: 85%;
+  @include sizes (85%, 30vw);
   }
 
 
 /* Centrado de elementos */
 .centrado{
-    text-align: center;
+    text-align: $cntr;
 }
 
 //Imagenes de Caja Vecina

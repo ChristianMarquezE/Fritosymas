@@ -3,7 +3,7 @@
     padding: 40px 0;
     background: #f1f1f1;
     color: #434343;
-    text-align: center;
+    text-align: $cntr;
   }
 //Parte interna de Testimonios
   .testimonios__interno{
@@ -21,9 +21,9 @@
   }
 //Ajuste flex en filas
   .testimonios__interno--fila{
-    display: flex;
+    display: $flx;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: $cntr;
   }
 
   //Separación de Testimonios
@@ -40,8 +40,7 @@
     padding: 30px;
   //Foto del Testimonio
     img{
-        width: 100px;
-        height: 100px;
+      @include sizes (100px, 100px);
         border-radius: 50%;
       }
   }

@@ -24,10 +24,8 @@ ul {
 }
 
 .carousel__imagen {
-  height: 30vw;
   width: 85%;
-  position: relative;
-  left: 8vw;
+  height: 30vw;
 }
 
 .carousel-control-next-icon {
@@ -35,7 +33,7 @@ ul {
   right: 8vw;
 }
 
-.carousel-control-prev-icon {
+.carousel-control-prev-icon, .carousel__imagen {
   position: relative;
   left: 8vw;
 }
@@ -190,8 +188,8 @@ ul {
 }
 
 .imagen-dq {
-  height: 30vw;
   width: 85%;
+  height: 30vw;
 }
 
 /* Centrado de elementos */
@@ -254,8 +252,8 @@ ul {
 }
 
 .altura-imagenes {
-  height: 200px;
   width: 200px;
+  height: 200px;
 }
 
 .altura-producto {
