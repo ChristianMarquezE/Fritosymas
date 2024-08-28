@@ -106,7 +106,7 @@ ul {
 
 /* Sección de imagen superpuesta en index.html */
 .sobre-nosotros {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7647058824)), url("..//assets/portada.png");
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7647058824)), url("..//assets/portada.webp");
   background-position: top center;
   background-attachment: fixed;
   background-size: cover;
@@ -207,6 +207,10 @@ ul {
 
 .padding-top-50 {
   padding-top: 50px;
+}
+
+.color {
+  color: black;
 }
 
 .contenedor-grid {
