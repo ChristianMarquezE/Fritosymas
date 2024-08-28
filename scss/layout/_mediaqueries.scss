@@ -1,29 +1,10 @@
-//Footer
-@media screen and (max-width:800px){
-  .footer .footer__grupo1{
-    width: 90%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;        
-    padding: 35px 0px;
-    }
-  }
-//Testimonios
-@media screen and (max-width:960px){
-  .testimonios__interno--columna{
-    flex: 100%;
-    max-width: 100%;
-    }
-  }    
-
-//Carousel
+// 950px Mediaquery
 @media screen and (max-width:950px){
+  //Carousel
   .carousel__imagen{
     height: 65vw;
     }
-    
-  }     
-//Productos novedosos
-@media screen and (max-width:950px){
+  //Productos novedosos
   .products{
     flex-direction: column;
   }
@@ -39,11 +20,24 @@
     'contenedor-grid__imagen-2 contenedor-grid__imagen-2'
     'contenedor-grid__contacto contenedor-grid__contacto'
     'imagen-dudas contenedor-grid__dudas'
-    }
+    
   }
-//Imagen Servicios
-@media screen and (max-width:950px){
+  //Imagen Servicios
   .imagen-dq{
     height: 65vw;
     }
+  //Testimonios
+  .testimonios__interno--columna{
+    flex: 100%;
+    max-width: 100%;
+    }
+  //Footer
+  .footer .footer__grupo1{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;        
+    padding: 35px 0px;
+    }
   }
+
+  
