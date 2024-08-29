@@ -221,6 +221,10 @@ ul {
   font-size: x-large;
 }
 
+.font-size-large {
+  font-size: large;
+}
+
 .margin-25 {
   margin: 25px 25px 25px 25px;
 }
