@@ -213,6 +213,18 @@ ul {
   color: black;
 }
 
+.margin-50 {
+  margin-top: 50px;
+}
+
+.font-size-x-large {
+  font-size: x-large;
+}
+
+.margin-25 {
+  margin: 25px 25px 25px 25px;
+}
+
 .contenedor-grid {
   display: grid;
   grid-template-rows: repeat(4, 65h);
@@ -313,6 +325,9 @@ ul {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px;
+  }
+  .margin-25 {
+    margin: 25px 0 25px 0;
   }
 }
 
