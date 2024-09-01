@@ -38,6 +38,8 @@
   .interno--columna--testimonio{
     background: #fff;
     padding: 30px;
+    height: 400px;
+    
   //Foto del Testimonio
     img{
       @include sizes (100px, 100px);
