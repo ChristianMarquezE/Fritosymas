@@ -2,3 +2,13 @@
       .navbar__container-fluid--icono{
         @include sizes(30px, 24px);
       }
+
+//Margin icono navbar
+.margin-right-10{
+  margin-right: 10px;
+}
+
+//Color del navbar
+.style{
+background-color: #6AB04C;
+}

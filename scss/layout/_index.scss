@@ -49,6 +49,7 @@
     font-size: large;
     }
 
+
 //Margin
   .margin-25{
     margin: 25px 25px 25px 25px;
@@ -56,4 +57,9 @@
 
   .margin-25-top-bottom{
     margin: 25px 0 25px 0;
+  }
+//Right position
+  .desplazado-right-15{
+    position: relative;
+    right: 15px;
   }

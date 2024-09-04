@@ -29,42 +29,42 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+   
+      <nav class="navbar sticky-top navbar-expand-lg style">
           <div class="container-fluid">
-            <img class="navbar__container-fluid--icono" src="../assets/logo-fritos-y-mas.webp" alt="logo-fritos-y-mas">
-            <a class="navbar-brand roboto-regular" href="../index.html">Fritos y más</a>
+            <img class="navbar__container-fluid--icono margin-right-10" src="../assets/logo-fritos-y-mas.webp" alt="logo-fritos-y-mas">
+            <a class="navbar-brand roboto-medium" href="../index.html">Fritos y más</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link roboto-regular" aria-current="page" href="../index.html">Inicio</a>
+                  <a class="nav-link roboto-medium" aria-current="page" href="../index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link roboto-regular" href="productos.html">Productos</a>
+                  <a class="nav-link roboto-medium" href="productos.html">Productos</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle roboto-regular active" href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle roboto-medium active" href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Servicios
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item roboto-regular" href="servicios.html">Caja vecina</a></li>
+                    <li><a class="dropdown-item roboto-medium" href="servicios.html">Caja vecina</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item roboto-regular active" href="#">Acerca de nosotros</a></li>
+                    <li><a class="dropdown-item roboto-medium active" href="#">Acerca de nosotros</a></li>
                   </ul>
     
               </ul>
               <form class="d-flex" role="search">
-                <input class="form-control me-2 roboto-regular" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success roboto-regular color" type="submit">Buscar</button>
+                <input class="form-control me-2 roboto-medium" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success roboto-medium color" type="submit">Buscar</button>
               </form>
             </div>
           </div>
         </nav>
     
-      </header>
+   
 
      <!-- Contenido principal -->
      <main class="contenedor-grid">
@@ -130,19 +130,19 @@
             <!-- Subtítulo y casillas para poner datos y mensaje -->
             <section class="centrado margin-50 products__card">
               <!-- Título -->
-              <h2 class="roboto-regular font-size-large"><strong>Escríbenos, nos interesa saber tu opinión.</strong></h3>
-                <form action="url" method="get o post">
-                <ul>
-                    <li class="centrado roboto-regular"><label for="name">Nombre</label></li>
-                    <li><input type="text" id="name" name="user_name"></li>
-                    <li class="roboto-regular"><label for="mail">Correo</label></li>
-                    <li><input type="email" id="mail" name="user_mail"></li>
-                    <li class="roboto-regular" ><label for="msg">Mensaje</label></li>
-                    <li><textarea name="user_message" id="msg"></textarea></li>
-                    <li class="button roboto-regular">
-                    <button type="submit">Enviar</button></li>
-                </ul>
-                </form>
+              <h2 class="roboto-regular font-size-large"> <strong>Escríbenos, nos interesa saber tu opinión.</strong></h2>
+              <form action="url" method="get o post">
+              <ul class="desplazado-right-15">
+                  <li class="roboto-regular form-control"><label for="name"><strong>Nombre</strong></label></li>
+                  <li><input type="text" class="form-control" id="name" name="user_name"></li>
+                  <li class="roboto-regular form-control"><label for="mail"><strong>Correo</strong></label></li>
+                  <li><input type="email" class="form-control" id="mail" name="user_mail"></li>
+                  <li class="roboto-regular form-control" ><label for="msg"><strong>Mensaje</strong></label></li>
+                  <li><textarea name="user_message" class="form-control" id="msg"></textarea></li>
+                  <li class="button roboto-regular">
+                  <button type="submit">Enviar</button></li>
+              </ul>
+              </form>
             </section>
 
             
